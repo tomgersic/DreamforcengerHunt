@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/background_gradient"
+  android:paddingTop="0pt"
+  >
+	<LinearLayout 
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="vertical"
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  android:gravity="center_horizontal|top"	
+	>  
+    	<ImageView android:layout_alignParentTop="true" android:gravity="top" android:src="@drawable/title_graphic" android:id="@+id/title_graphic" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingTop="0pt" android:scaleType="fitXY"></ImageView>	
+		<ImageButton android:id="@+id/button_hunts" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/cloud_button" android:background="@null" android:paddingRight="20pt" android:paddingTop="1pt"></ImageButton>
+	</LinearLayout>
+	<ImageView android:layout_alignParentBottom="true" android:gravity="bottom" android:src="@drawable/city1" android:id="@+id/city1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingTop="0pt" android:scaleType="centerCrop"></ImageView>	
+	<ImageButton android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:gravity="bottom" android:id="@+id/button_logout" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/logout_button" android:background="@null" android:paddingLeft="20pt" android:paddingBottom="11pt"></ImageButton>
+	<ImageButton android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:gravity="bottom" android:id="@+id/button_mm" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/icon72" android:background="@null" android:paddingLeft="5pt" android:paddingBottom="1pt"></ImageButton>	
+</RelativeLayout>

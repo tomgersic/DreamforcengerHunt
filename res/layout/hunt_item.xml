@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/background_gradient">
+  	<LinearLayout 
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="vertical"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:gravity="center_horizontal|top"	
+	>  
+  		<ImageView android:layout_alignParentTop="true" android:gravity="top" android:src="@drawable/title_graphic" android:id="@+id/title_graphic" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingTop="0pt" android:scaleType="fitXY"></ImageView>
+ 	</LinearLayout>
+    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/text_hunt_item" android:text="@string/Hunt_Item"></TextView>
+    <Button android:layout_height="wrap_content" android:id="@+id/button_geotag_it" android:layout_width="wrap_content" android:text="@string/Geotag_It"></Button>
+    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/hunt_text_found" android:text="@string/Empty"></TextView>
+    
+</LinearLayout>

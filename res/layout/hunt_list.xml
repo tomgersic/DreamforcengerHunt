@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="@drawable/background_gradient"
+  android:layout_height="match_parent" android:weightSum="1">
+	<LinearLayout 
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="vertical"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:gravity="center_horizontal|top"	
+	>  
+		<ImageView android:layout_alignParentTop="true" android:gravity="top" android:src="@drawable/title_graphic" android:id="@+id/title_graphic" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingTop="0pt" android:scaleType="fitXY"></ImageView>  
+	</LinearLayout>
+    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/text_hunt_list" android:text="@string/Hunt_List"></TextView>
+    <ListView android:layout_width="match_parent" android:layout_height="fill_parent" android:id="@+id/hunt_list_view" android:cacheColorHint="#00000000"/>
+    
+</LinearLayout>

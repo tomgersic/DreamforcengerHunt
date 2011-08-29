@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DreamforcengerHuntActivity!</string>
+    <string name="app_name">Dreamforcenger Hunt</string>
+    <string name="Name">Name</string>
+    <string name="Create_Hunt">Create Hunt</string>
+    <string name="My_New_Hunt">My New Hunt</string>
+    <string name="Add_Item">Add Item</string>
+    <string name="Item_Name">Item Name</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Geotag_It">Geotag It!</string>
+    <string name="consumer_key">key</string>
+    <string name="consumer_secret">secret</string>
+    <string name="oAuthUrl">https://login.salesforce.com/services/oauth2/authorize?response_type=token&amp;display=touch&amp;client_id=</string>
+    <string name="callbackUrl">https://login.salesforce.com/services/oauth2/success</string>
+    <string name="Available_Hunts">Available Hunts</string>
+    <string name="Back">Back</string>
+    <string name="Hunt_List">Hunt List</string>
+    <string name="Hunt_Item">Hunt Item</string>
+    <string name="Found">Found</string>
+    <string name="API_Version">v22.0</string>
+    <string name="Empty"></string>
+    <string name="Item_Found">Item Found!</string>
+    <string name="Nope_Keep_Looking">Nope! Keep Looking!</string>
+    <string name="Accuracy_Inadequate">GPS Accuracy level is inadequate. Please move around and try again.</string>
+    <string name="API_ERROR">SFDC API Error</string>
+    <string name="oAuthRefreshUrl">https://login.salesforce.com/services/oauth2/token</string>
+    <string name="CheckItemFoundXML">&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;utf-8\&quot;?&gt;&lt;SOAP-ENV:Envelope xmlns:xsd=\&quot;http://www.w3.org/2001/XMLSchema\&quot; xmlns:xsi=\&quot;http://www.w3.org/2001/XMLSchema-instance\&quot; xmlns:SOAP-ENC=\&quot;http://schemas.xmlsoap.org/soap/encoding/\&quot; SOAP-ENV:encodingStyle=\&quot;http://schemas.xmlsoap.org/soap/encoding/\&quot; xmlns:SOAP-ENV=\&quot;http://schemas.xmlsoap.org/soap/envelope/\&quot;&gt;&lt;SOAP-ENV:Header&gt;&lt;SOAP-ENV:SessionHeader&gt;&lt;sessionId&gt;[SESSION_ID]&lt;/sessionId&gt;&lt;/SOAP-ENV:SessionHeader&gt;&lt;/SOAP-ENV:Header&gt;&lt;SOAP-ENV:Body&gt;&lt;checkItemFound xmlns=\&quot;http://soap.sforce.com/schemas/class/DH_Found_Item\&quot;&gt;&lt;HuntItemId xsi:type=\&quot;xsd:string\&quot;&gt;[HUNT_ITEM_ID]&lt;/HuntItemId&gt;&lt;Latitude xsi:type=\&quot;xsd:decimal\&quot;&gt;[LATITUDE]&lt;/Latitude&gt;&lt;Longitude xsi:type=\&quot;xsd:decimal\&quot;&gt;[LONGITUDE]&lt;/Longitude&gt;&lt;/checkItemFound&gt;&lt;/SOAP-ENV:Body&gt;&lt;/SOAP-ENV:Envelope&gt;</string>
+    <string name="CheckItemFoundURL">/services/Soap/class/DH_Found_Item</string>
+    <string name="API_Exception_Message">API Exception. Notify your administrator.</string>
+</resources>
